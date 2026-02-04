@@ -16,8 +16,25 @@ body{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-
 }
+.container-heading{
+    max-width: 827px;
+    margin: auto;
+    text-align: center;
+}
+.container-heading h2{
+color: #181818;
+font-size: 35px;
+margin-bottom: 30px;
+}
+.container-heading p{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+
 header{
     background: url(../images/developer.png) left 40px top 30px, url(../images/header_bg.png) bottom right , #FFF8F3;
     background-repeat: no-repeat;
@@ -90,4 +107,31 @@ nav .menu{
 #banner .img img{
     max-width: 584px;
     vertical-align: middle;
+}
+#about{
+    padding-top: 130px;
+}
+#about-container{
+    width: 1140px;
+    max-width: 71%;
+    margin: auto;
+    background-color: #FFF8F3;
+    text-align: center;
+    padding: 131px 156px;
+}
+
+#card-div{
+display: flex;
+justify-content: space-around;
+}
+#card-div .card-info p{
+    font-size: 20px;
+    color: #757575;
+    line-height: 30px;
+}
+
+#card-div .card-info h4{
+    font-size: 20px;
+    color: #474747;
+    font-weight: bold;
 }
