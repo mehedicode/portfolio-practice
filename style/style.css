@@ -108,7 +108,7 @@ nav .menu{
     max-width: 584px;
     vertical-align: middle;
 }
-#about{
+#about , #skill, #resume{
     padding-top: 130px;
 }
 #about-container{
@@ -134,4 +134,58 @@ justify-content: space-around;
     font-size: 20px;
     color: #474747;
     font-weight: bold;
+}
+
+#skill-box{
+    display: flex;
+    width: 71%;
+    max-width: 1140px;
+    margin: auto;
+    gap: 24px;
+    padding-top: 50px;
+}
+#skill-box .card-box{
+    padding: 30px;
+    max-width: 267px;
+    box-shadow: 0 6px 50px 0 #00000070;
+}
+#skill-box .card-box img{
+    width: 44px;
+    margin-bottom: 30px;
+}
+#skill-box .card-box h3{
+    font-size: bold;
+    font: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+#skill-box .card-box p{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+}
+
+#resume .resume-container{
+    display: flex;
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    gap: 24px;
+}
+
+.resume-title{
+    font-size: bold;
+    size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.card-info .card-title{
+    size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.card-info .card-info{
+    size: 20px;
+    font-size: ;
 }
