@@ -187,6 +187,14 @@ justify-content: space-around;
     margin-bottom: 10px;
 }
 .card-info .card-info{
-    size: 20px;
-    font-size: ;
+    size:20x;
+    color:#757575;
+}
+.card-info .card-text{
+    size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+.resume-container hr{
+    margin: 30px 0;
 }
